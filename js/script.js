@@ -48,7 +48,7 @@ $.get(`https://api.wunderground.com/api/bc83691ee725e7bb/geolookup/conditions/ho
     <div><img src='img/boyCool.png' height= 200px width=200px></div>
     <div><img src='img/girlCool.png' height= 200px width=200px></div>
     `);
-  } else if(temp_c <20) {
+  } else if(temp_c <18) {
 
     $("#body").css("background",  "rgba(234, 193, 46, 0.1)")
     $("header").css("background", "rgba(234, 193, 46, 0.9)");
@@ -60,7 +60,7 @@ $.get(`https://api.wunderground.com/api/bc83691ee725e7bb/geolookup/conditions/ho
     <div><img src='img/girlWarm.png' height= 200px width=200px></div>
     `);
 
-  } else if(temp_c > 20) {
+  } else if(temp_c > 18) {
     $("#body").css("background",  "rgba(176, 50, 18, 0.1)")
     $("header").css("background",  "rgba(176, 50, 18, 0.9)");
     $(".searchBlock").css("background", "rgba(176, 50, 18, 0.9)");
