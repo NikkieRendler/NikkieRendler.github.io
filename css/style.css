@@ -1,0 +1,86 @@
+header {
+	height: 92px;
+	background-color: #bcbcbc;
+}
+.search {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 40px;
+}
+.searchBlock {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 28px;
+	width: 330px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 10px;
+}
+.searchBlock i {
+	margin-right: 6px; 
+}
+.searchBlock i:hover {
+	cursor: pointer;
+}
+input {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	width: 300px;
+	border: none;
+	margin-left: 1px;
+	padding-left: 5px;
+}
+
+.appBody {
+	padding-top: 10%;
+	padding-bottom: 22%;
+}
+.appLeftSide {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.weatherBgr {
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 5px;
+}
+.weather {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 190px;
+	width: 340px;
+	border-radius: 5px;
+}
+
+.weatherLeft {
+	color: white;
+	margin-left: 20px;
+	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.weatherRight {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 70px;
+}
+.wearWhat {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+footer {
+	height: 92px;
+	background-color: #bcbcbc;
+}
