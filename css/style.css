@@ -1,6 +1,9 @@
 header {
-	height: 92px;
+	height: 93px;
 	background-color: #bcbcbc;
+}
+#body {
+	height: 700px;
 }
 .search {
 	display: flex;
@@ -30,9 +33,21 @@ input {
 	width: 300px;
 	border: none;
 	margin-left: 1px;
-	padding-left: 5px;
+	padding-left: 10px;
 }
-
+.loader {
+	border: 12px solid #f3f3f3; 
+    border-top: 12px solid #3498db; 
+    border-bottom: 12px solid #3498db; 
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 .appBody {
 	padding-top: 10%;
 	padding-bottom: 22%;
@@ -41,7 +56,7 @@ input {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
 }
 .weatherBgr {
 	background-repeat: no-repeat;
@@ -58,14 +73,13 @@ input {
 }
 
 .weatherLeft {
-	color: white;
+	font-size: 17px;
 	margin-left: 20px;
 	margin-top: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 }
-
 .weatherRight {
 	display: flex;
 	flex-direction: column;
@@ -73,14 +87,14 @@ input {
 	align-items: center;
 	margin-right: 70px;
 }
-.wearWhat {
+.appRightSide {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	padding: 20px;
 }
 footer {
-	height: 92px;
+	height: 94px;
 	background-color: #bcbcbc;
 }
